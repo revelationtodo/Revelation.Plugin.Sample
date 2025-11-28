@@ -1,11 +1,12 @@
-# RevelationPluginSample
+# Revelation.Plugin.Sample
+
 This repository contains a sample plugin for the **Revelation** todo software. It demonstrates the recommended structure and basic integration workflow for developing plugins.
 
 ## Setup Steps:
 
 1. **Clone the Revelation repository**
 
-   ```cmd
+   ```
    git clone --recursive https://github.com/revelationtodo/Revelation.git
    ```
 
@@ -13,9 +14,9 @@ This repository contains a sample plugin for the **Revelation** todo software. I
 
    Navigate to the `Source` directory inside the Revelation project, then clone this repository:
 
-   ```cmd
-   cd Revelation/Source
-   git clone https://github.com/revelationtodo/RevelationPluginSample.git
+   ```
+   cd Revelation/SourceCode
+   git clone https://github.com/revelationtodo/Revelation.Plugin.Sample.git RevelationPluginSample
    ```
 
 3. **Build Revelation**
@@ -26,5 +27,4 @@ This repository contains a sample plugin for the **Revelation** todo software. I
 
    After completing the engine setup, build the project and run it to verify that the sample plugin is correctly loaded.
 
-**PS:**
- Please ensure that the repository published on GitHub includes the tag: **`revelation-plugin`**.
+**PS:** Please ensure that the repository published on GitHub includes the tag: **`revelation-plugin`**.
